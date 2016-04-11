@@ -19,4 +19,11 @@ public class CalcTest {
       calc.sub(10, 20);
       assertEquals(-10,calc.getResult());
    }
+   
+   @Test
+   public void testdiv() {
+      Calc calc = new Calc();
+      calc.div(20, 10);
+      assertEquals(2,calc.getResult());
+   }
 }
