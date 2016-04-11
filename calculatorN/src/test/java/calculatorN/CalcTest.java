@@ -26,4 +26,10 @@ public class CalcTest {
       calc.mul(10, 20);
       assertEquals(200,calc.getResult());
    }
+
+   public void testdiv() {
+      Calc calc = new Calc();
+      calc.div(20, 10);
+      assertEquals(2,calc.getResult());
+   }
 }
