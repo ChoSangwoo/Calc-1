@@ -13,6 +13,7 @@ public class Calc {
 		result = x * y;
 	}
 	public void div(int x, int y){
+		if(y!=0) // y∞° 0¿Ã∏È
 			result = x/y;
 	}
 	public int getResult(){
