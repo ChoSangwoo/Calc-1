@@ -16,6 +16,9 @@ public class Calc {
 		if(y!=0) // y°¡ 0ÀÌ¸é
 			result = x/y;
 	}
+	public void inc(int x){
+			result +=x;
+	}
 	public int getResult(){
 		return result;
 	}
